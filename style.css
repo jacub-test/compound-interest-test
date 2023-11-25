@@ -1,0 +1,61 @@
+.container {
+    width: 60rem;
+    margin: 0 auto;
+    background: rgb(251, 251, 251);
+}
+
+.title-page {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    color: rgb(1, 81, 90);
+    padding-top: 1rem;
+}
+
+input {
+    margin: 0.5rem 0.2rem 0.5rem 1.5rem;
+    height: 2.3rem;
+    width: 12rem;
+    border: 1px solid rgb(31, 1, 78);
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.compound-div, .add-div, .interest-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.calculator-btn {
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 1.5rem auto 2rem auto;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid rgb(31, 1, 78);
+    border-radius: 0.3rem;
+    background-color: rgb(171, 247, 234);
+    transition: all 0.3s linear;
+    color: rgb(0, 41, 46);
+}
+
+.calculator-btn:hover {
+    background-color: rgb(49, 246, 213);
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    padding: 0.5rem 0 1.5rem 0;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgb(0, 41, 46);
+}
