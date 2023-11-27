@@ -5,3 +5,7 @@ let likeFunctionality = () => {
 let disLikeFunctionality = () => {
   return false
 }
+
+let getUserAge = (user) => {
+  return user.age
+}
