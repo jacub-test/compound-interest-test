@@ -14,3 +14,7 @@ let getUserAid = (user) => {
   let userName = user.name
   return userName.aid
 }
+
+const setCommit = function () {
+  return true
+}
