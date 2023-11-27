@@ -18,3 +18,15 @@ let getUserAid = (user) => {
 const setCommit = function () {
   return true
 }
+
+let someName = ['ehsan', 'hesam', 'hassan', 'mobina']
+
+let testUserName = prompt('enter your name:', 'ehsan')
+
+let isEhsan = someName.map((name) => {
+  if (name === 'ehsan') {
+    return true
+  } else {
+    return false
+  }
+})
