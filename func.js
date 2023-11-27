@@ -9,3 +9,8 @@ let disLikeFunctionality = () => {
 let getUserAge = (user) => {
   return user.age
 }
+
+let getUserAid = (user) => {
+  let userName = user.name
+  return userName.aid
+}
